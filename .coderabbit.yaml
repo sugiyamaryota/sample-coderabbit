@@ -1,9 +1,8 @@
 reviews:
   path_instructions:
     - path: "**/*.ts"
-      instructions: "Review the JavaScript code for conformity with the Google JavaScript style guide, highlighting any deviations."
-    - path: "tests/**/*"
       instructions: |
+        "Google Javascript style guideに従って、レビューをしてください"
         "React ファイルのルートタグに従って、以下の通りレビュー観点を追加してください.
         ファイル全体
         - 行数が多い (コメント行を含まずに 300 行を超える) 場合、分割可能かどうかの観点をレビューに含め、可能であれば、指摘してください.
